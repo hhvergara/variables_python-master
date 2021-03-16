@@ -120,7 +120,7 @@ palabra_1 = str(input())
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
 recorte_1=palabra_1[ :3]
-recorte_2=palabra_2[ :3]
+recorte_2=palabra_2[ :3] # Inovetip: acá tenes que usar [-3:] para traerte las últimas 3.
 palabrarecortada=recorte_1+recorte_2
 print(palabrarecortada)
     # De la primera palabra tome las primeras tres letras, utilice el operador :
